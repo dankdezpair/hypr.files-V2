@@ -1,0 +1,12 @@
+format = """\
+[╭╴](238)$directory\
+$all[╰─](238)$character"""
+add_newline=false
+[character]
+success_symbol = "[λ](green)"
+error_symbol = "[λ](red)"
+vimcmd_symbol = "[](bright-black)"
+vimcmd_visual_symbol = "[](bold-red)"
+[sudo]
+symbol = "[](bright-green)"
+# test123
