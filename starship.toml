@@ -3,10 +3,12 @@ format = """\
 $all[╰─](238)$character"""
 add_newline=false
 [character]
-success_symbol = "[λ](green)"
-error_symbol = "[λ](red)"
+success_symbol = "[λ](bright-green)"
+error_symbol = "[λ](bright-purple)"
 vimcmd_symbol = "[](bright-black)"
 vimcmd_visual_symbol = "[](bold-red)"
 [sudo]
 symbol = "[](bright-green)"
 # test123
+[battery]
+disabled = true
