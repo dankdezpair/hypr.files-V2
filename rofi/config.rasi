@@ -1,0 +1,98 @@
+@theme "/dev/null"
+
+* {
+	bg: #0f0f0f;
+	background-color: @bg;
+}
+
+
+configuration {
+	show-icons: true;
+		icon-theme: "Papirus";
+	location: 0;
+	font: "Iosevka 16";	
+	display-drun: "Launch:";
+}
+
+window { 
+	width: 35%;
+	transparency: "real";
+	orientation: vertical;
+	border-color: #9ec3c4;
+}
+
+mainbox {
+	children: [inputbar, listview];
+}
+
+
+// ELEMENT
+// -----------------------------------
+
+element {
+	padding: 4 12;
+	text-color: #f0f0f0;
+}
+
+element selected {
+	background-color: #9ec49f;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+}
+
+element-icon {
+	size: 16 px;
+	background-color: inherit;
+	padding: 0 6 0 0;
+	alignment: vertical;
+}
+
+listview {
+	columns: 2;
+	lines: 9;
+	padding: 8 0;
+	fixed-height: true;
+	fixed-columns: true;
+	fixed-lines: true;
+	border: 0 10 6 10;
+}
+
+// INPUT BAR 
+//------------------------------------------------
+
+entry {
+	text-color: #a39ec4;
+	padding: 10 10 0 0;
+  background-color:#0f0f0f;
+	margin: 0 -2 0 0;
+}
+
+inputbar {
+	background-image: url("/home/dezpair/.config/rofi/vagabond.jpg", width);
+  background-color:#0f0f0f;
+	padding: 180 0 0;
+	margin: 0 0 0 0;
+} 
+
+prompt {
+	text-color: #9ec49f;
+	padding: 10 6 0 10;
+	margin: 0 -2 0 0;
+  background-color:#0f0f0f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
