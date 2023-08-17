@@ -14,7 +14,7 @@ local diagnostics = {
  "diagnostics",
 
   separator = {
-    left  = " ",
+    left  = "",
     right = " ",
   },
 
@@ -59,7 +59,7 @@ end
  local mode = {
   "mode",
   separator = {
-    left  = "",
+    left  = "",
     right = "",
   } ,
   fmt = function(str)
@@ -78,7 +78,7 @@ require('lualine').setup {
     },
     ignore_focus = {},
     always_divide_middle = true,
-    globalstatus = false,
+    globalstatus = true,
     refresh = {
       statusline = 1000,
       tabline = 1000,
